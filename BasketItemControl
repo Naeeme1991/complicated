@@ -18,7 +18,7 @@ const BasketItemControl = ({ product }) => {
       dispatch(minusQtyItem(product.id));
     }
   };
-
+// create my component satrt 
   return (
     <div className="basket-item-control">
       <button
@@ -39,6 +39,7 @@ const BasketItemControl = ({ product }) => {
       </button>
     </div>
   );
+// create my component end
 };
 
 BasketItemControl.propTypes = {
