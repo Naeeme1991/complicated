@@ -11,13 +11,6 @@ import { bankAccountsMachine } from "../machines/bankAccountsMachine";
 import PrivateRoutesContainer from "./PrivateRoutesContainer";
 import { GoogleLogin, useGoogleLogin } from "@matheusluizn/react-google-login";
 
-// @ts-ignore
-if (window.Cypress) {
-  // Expose authService on window for Cypress
-  // @ts-ignore
-  window.authService = authService;
-}
-
 const PREFIX = "AppGoogle";
 
 const classes = {
